@@ -1,1 +1,1 @@
-Featurea is a game engine in Kotlin featurea.github.io/website
+Featurea is a game engine in Kotlin https://featurea.github.io/website
