@@ -144,6 +144,17 @@
                     event.preventDefault();
                 }
             });
+            // hide stats on desktop
+            const cssText = `
+            @media screen and (min-width: 768px) {
+                div[style*="z-index: 10000"] {
+                    visibility: hidden;
+                }
+            }
+            `;
+            const style = viewer.contentDocument.createElement('style');
+            style.textContent = cssText;
+            viewer.contentDocument .head.appendChild(style);
         });
         document.onkeydown = function disableF5(e) {
             if ((e.which || e.keyCode) == 116 || (e.keyCode == 82 && e.ctrlKey)) e.preventDefault();
@@ -178,7 +189,7 @@
         viewer.focus();
         viewer.style.display = 'unset';
         panel.classList.remove('open');
-        selected = file;        
+        selected = file;              
     }
 
     function escapeRegExp(string) {

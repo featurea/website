@@ -106,5 +106,5 @@
 	"graphics/webgl_simple_gi": [ "global illumination" ],
 	"graphics/webgl2_multiple_rendertargets": [ "mrt" ],
 	"graphics/webgl2_multisampled_renderbuffers": [ "msaa" ],
-	"learnopengl/multipleLights": ["learnopengl"]
+	"learnopengl/multipleLights": ["learnopengl", "tutorial"]
 }
