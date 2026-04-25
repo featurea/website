@@ -1,3 +1,3 @@
-# Featurea Examples
+# Featurea
 
-https://featurea.github.io/examples
+https://featurea.com
