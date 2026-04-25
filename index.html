@@ -215,8 +215,8 @@
         }
     }
 
-    function getName(file) {
-        const name = file.split('_');
+    function getName(file) {        
+        const name = file.split(file.includes('_') ? '_' : '/');
         name.shift();
         return name.join(' / ');
     }
