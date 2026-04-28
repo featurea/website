@@ -130,19 +130,20 @@
                     const link = links[file];
                     const href = link.getElementsByTagName('a')[0];
                     href.click();
-                } else if (event.code === 'F5') {
-                    viewer.contentWindow.location.reload(true);
-                    event.preventDefault();
-                } else if (event.code === 'F11') {
-                    if (panel.style.display == 'none') {
-                        panel.style.display = 'block';
-                        viewer.style.paddingLeft = 'var(--panel-width)';
-                    } else {
-                        panel.style.display = 'none';
-                        viewer.style.paddingLeft = '0';
-                    }
-                    event.preventDefault();
                 }
+                // else if (event.code === 'F5') {
+                //     viewer.contentWindow.location.reload(true);
+                //     event.preventDefault();
+                // } else if (event.code === 'F11') {
+                //     if (panel.style.display == 'none') {
+                //         panel.style.display = 'block';
+                //         viewer.style.paddingLeft = 'var(--panel-width)';
+                //     } else {
+                //         panel.style.display = 'none';
+                //         viewer.style.paddingLeft = '0';
+                //     }
+                //     event.preventDefault();
+                // }
             });
             // hide stats on desktop
             const cssText = `
