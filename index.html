@@ -114,6 +114,7 @@
             viewer.setAttribute('scrolling', 'no');
         }
         // navigation
+        const header = document.getElementById("header");
         viewer.addEventListener('load', () => {
             viewer.contentWindow.addEventListener('keydown', (event) => {
                 if (event.code === 'PageUp') {
@@ -134,16 +135,19 @@
                 // else if (event.code === 'F5') {
                 //     viewer.contentWindow.location.reload(true);
                 //     event.preventDefault();
-                // } else if (event.code === 'F11') {
-                //     if (panel.style.display == 'none') {
-                //         panel.style.display = 'block';
-                //         viewer.style.paddingLeft = 'var(--panel-width)';
-                //     } else {
-                //         panel.style.display = 'none';
-                //         viewer.style.paddingLeft = '0';
-                //     }
-                //     event.preventDefault();
                 // }
+                else if (event.code === 'F11') {
+                    if (header.style.display == 'none') {
+                        header.style.display = '';        
+                        viewer.style.top = 'var(--header-height)';
+                        viewer.style.height = 'calc(100% - var(--header-height))';                        
+                    } else {
+                        header.style.display = 'none';
+                        viewer.style.top = '0';
+                        viewer.style.height = '100%';
+                    }
+                    // event.preventDefault();
+                }
             });
             // hide stats on desktop
             const cssText = `
