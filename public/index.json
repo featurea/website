@@ -246,5 +246,8 @@
 	],
 	"learnopengl": [
 		"learnopengl/multipleLights"
+	],
+	"catalog": [
+		"catalog/platformer"
 	]
 }
