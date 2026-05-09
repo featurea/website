@@ -248,6 +248,7 @@
 		"learnopengl/multipleLights"
 	],
 	"catalog": [
+		"catalog/drawGlyph",
 		"catalog/platformer"
 	]
 }

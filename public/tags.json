@@ -107,5 +107,6 @@
 	"graphics/webgl2_multiple_rendertargets": [ "mrt" ],
 	"graphics/webgl2_multisampled_renderbuffers": [ "msaa" ],
 	"learnopengl/multipleLights": ["learnopengl", "tutorial"],
+	"catalog/drawGlyph": ["font"],
 	"catalog/platformer": ["mario"]
 }
