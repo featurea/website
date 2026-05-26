@@ -108,5 +108,5 @@
 	"graphics/webgl2_multisampled_renderbuffers": [ "msaa" ],
 	"learnopengl/multipleLights": ["learnopengl", "tutorial"],
 	"catalog/drawGlyph": ["font"],
-	"catalog/platformer": ["mario"]
+	"catalog/mario": ["mario"]
 }

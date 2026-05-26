@@ -249,6 +249,6 @@
 	],
 	"catalog": [
 		"catalog/drawGlyph",
-		"catalog/platformer"
+		"catalog/mario"
 	]
 }
