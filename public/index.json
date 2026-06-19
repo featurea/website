@@ -248,7 +248,8 @@
 		"learnopengl/multipleLights"
 	],
 	"catalog": [
+		"catalog/advenworks-diableros",
 		"catalog/drawGlyph",
-		"catalog/mario"
+		"catalog/mario"		
 	]
 }

@@ -108,5 +108,6 @@
 	"graphics/webgl2_multisampled_renderbuffers": [ "msaa" ],
 	"learnopengl/multipleLights": ["learnopengl", "tutorial"],
 	"catalog/drawGlyph": ["font"],
-	"catalog/mario": ["mario"]
+	"catalog/mario": ["mario"],
+	"catalog/advenworks-diableros": ["advenworks-diableros"]
 }
